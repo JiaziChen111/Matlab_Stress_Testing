@@ -1,0 +1,56 @@
+Benchmark prior,,,,,
+
+"Each row has the specification pdf, arg1, arg2, mask, fix",,,,,
+The pdf shape of the prior density is given by:,,,,,
+1,Beta,"mean, std",,,
+2,GAMMA,"mean, std",,,
+3,Normal,"mean, std",,,
+4,invgamma,"(s^2,nu)",,,
+5,uniform,"a,b",,,
+
+arg1,1st argument for pdf,,,,
+arg2,2nd argument for pdf,,,,
+mask ,1 if the parameter is fixed to a constant,,,,
+fix,fixed parameter value (0 if mask=0),,,,
+
+param,pdf,arg1,arg2,mask,fix
+alp,1,0.33,0.1,0,0
+zeta_p,1,0.6,0.2,0,0
+iota_p,1,0.5,0.28,1,0
+del,1,0.025,0.01,1,0.025
+ups,2,1,0.5,1,0
+Bigphi,2,0.5,0.25,1,0
+s2,2,4,1.5,0,0
+h,1,0.7,0.05,0,0
+a2,2,0.2,0.1,0,0
+nu_l,2,2,0.75,0,0
+nu_m,2,2,0.75,1,2
+zeta_w,1,0.6,0.2,0,0
+iota_w,1,0.5,0.28,1,0
+law,2,0.3,0.5,1,0.3
+beta,2,2,1,0,0
+psi1,2,1.5,0.4,0,0
+psi2,2,0.2,0.1,0,0
+rho_r,1,0.5,0.2,0,0
+pistar,3,3,1.5,0,0
+gam,2,2,1,0,0
+Wadj,3,0,5,1,0
+chi,2,0.1,0.1,1,0.1
+laf,2,0.15,0.1,0,0
+gstar,2,0.3,0.1,0,0
+Ladj,3,252,10,0,0
+rho_z,1,0.2,0.1,0,0
+rho_phi,1,0.6,0.2,0,0
+rho_chi,1,0.6,0.2,1,0.9
+rho_laf,1,0.6,0.2,0,0
+rho_mu,1,0.8,0.05,0,0
+rho_b,1,0.6,0.2,0,0
+rho_g,1,0.8,0.05,0,0
+sig_z,4,0.75,2,0,0
+sig_phi,4,4,2,0,0
+sig_chi,4,0.75,2,1,0
+sig_laf,4,0.75,2,0,0
+sig_mu,4,0.75,2,0,0
+sig_b,4,0.75,2,0,0
+sig_g,4,0.75,2,0,0
+sig_r,4,0.2,2,0,0
